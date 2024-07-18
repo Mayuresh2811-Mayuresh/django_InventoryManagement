@@ -19,7 +19,7 @@ Before you begin, ensure you have met the following requirements:
   ```sh
   pip install django
 
-Installation
+## Installation
 Clone the Repository
 
 
@@ -27,7 +27,7 @@ Clone the Repository
 git clone https://github.com/Mayuresh2811-Mayuresh/django_InventoryManagement.git
 cd django_InventoryManagement
 
-Create a Virtual Environment
+## Create a Virtual Environment
 
 
 python -m venv venv
@@ -36,19 +36,22 @@ venv\Scripts\activate
 # On macOS/Linux
 source venv/bin/activate
 
-Install Dependencies
+## Install Dependencies
 
 
 pip install -r requirements.txt
-Apply Migrations
+
+## Apply Migrations
 
 
 python manage.py migrate
-Create a Superuser
+
+## Create a Superuser
 
 
 python manage.py createsuperuser
-Run the Server
+
+## Run the Server
 
 python manage.py runserver
 Access the Application
